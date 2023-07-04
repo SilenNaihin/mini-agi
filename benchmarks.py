@@ -1,33 +1,18 @@
 import os
 import sys
 from typing import Tuple
-import pexpect
+import subprocess
 
 
-def run_specific_agent(task: str) -> Tuple[str, int]:
+def run_specific_agent(task: str) -> None:
     # Ensure the directory for the project exists
     os.makedirs("user/miniagi", exist_ok=True)
 
     # Run the mini-agi command
-    child = pexpect.spawn(f"python miniagi.py {task}")
-
-    # Create a loop to continuously read output
-    while True:
-        try:
-            child.expect("\n")  # This waits until a newline appears
-            print(child.before.decode())  # This prints the line
-        except pexpect.EOF:
-            break  # No more output, break the loop
-
-    # Check the exit status
-    child.close()  # Close the child process
-
-    # Return child process's exit status and any error messages
-    return child.before.decode(), child.exitstatus
+    subprocess.run(["python", "miniagi.py", task], text=True)
 
 
 if __name__ == "__main__":
-    # The first argument is the script name itself, second is the task
     if len(sys.argv) != 2:
         print("Usage: python script.py <task>")
         sys.exit(1)
