@@ -5,9 +5,6 @@ import subprocess
 
 
 def run_specific_agent(task: str) -> None:
-    # Ensure the directory for the project exists
-    os.makedirs("user/miniagi", exist_ok=True)
-
     # Run the mini-agi command
     subprocess.run(["python", "miniagi.py", task], text=True)
 
