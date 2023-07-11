@@ -1,0 +1,24 @@
+{
+    "TestReadFile": {
+        "difficulty": "basic",
+        "dependencies": [
+            "TestWriteFile"
+        ],
+        "test": "agbenchmark\\challenges\\interface\\read_file",
+        "success": true
+    },
+    "TestSearch": {
+        "difficulty": "basic",
+        "dependencies": [
+            "TestWriteFile"
+        ],
+        "test": "agbenchmark\\challenges\\interface\\search",
+        "success": true
+    },
+    "TestWriteFile": {
+        "difficulty": "basic",
+        "dependencies": [],
+        "test": "agbenchmark/challenges/interface/write_file",
+        "success": true
+    }
+}
