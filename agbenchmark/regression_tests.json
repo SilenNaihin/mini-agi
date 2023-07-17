@@ -1,24 +1,21 @@
 {
     "TestReadFile": {
-        "difficulty": "basic",
+        "difficulty": "interface",
         "dependencies": [
             "TestWriteFile"
         ],
-        "test": "agbenchmark\\challenges\\interface\\read_file",
-        "success": true
+        "data_path": "agbenchmark/challenges/interface/read_file"
     },
     "TestSearch": {
-        "difficulty": "basic",
+        "difficulty": "interface",
         "dependencies": [
             "TestWriteFile"
         ],
-        "test": "agbenchmark\\challenges\\interface\\search",
-        "success": true
+        "data_path": "agbenchmark/challenges/interface/search"
     },
     "TestWriteFile": {
-        "difficulty": "basic",
+        "difficulty": "interface",
         "dependencies": [],
-        "test": "agbenchmark/challenges/interface/write_file",
-        "success": true
+        "data_path": "agbenchmark/challenges/interface/write_file"
     }
 }
