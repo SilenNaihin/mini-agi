@@ -7,6 +7,14 @@
         ],
         "data_path": "agbenchmark/challenges/retrieval/r1"
     },
+    "TestDebugSimpleTypoWithGuidance": {
+        "difficulty": "novice",
+        "dependencies": [
+            "TestReadFile",
+            "TestWriteFile"
+        ],
+        "data_path": "agbenchmark/challenges/code/d2_debug"
+    },
     "TestReadFile": {
         "difficulty": "interface",
         "dependencies": [
