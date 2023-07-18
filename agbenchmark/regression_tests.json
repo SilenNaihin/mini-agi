@@ -1,4 +1,12 @@
 {
+    "TestBasicRetrieval": {
+        "difficulty": "basic",
+        "dependencies": [
+            "TestWriteFile",
+            "TestSearch"
+        ],
+        "data_path": "agbenchmark/challenges/retrieval/r1"
+    },
     "TestReadFile": {
         "difficulty": "interface",
         "dependencies": [
