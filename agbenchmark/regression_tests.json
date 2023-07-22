@@ -1,37 +1,26 @@
 {
     "TestBasicRetrieval": {
         "difficulty": "basic",
-        "dependencies": [
-            "TestWriteFile",
-            "TestSearch"
-        ],
         "data_path": "agbenchmark/challenges/retrieval/r1_book_price/data.json"
     },
     "TestDebugSimpleTypoWithGuidance": {
         "difficulty": "novice",
-        "dependencies": [
-            "TestReadFile",
-            "TestWriteFile"
-        ],
         "data_path": "agbenchmark/challenges/code/c2_debug_suite/d2_debug/data.json"
     },
     "TestReadFile": {
         "difficulty": "interface",
-        "dependencies": [
-            "TestWriteFile"
-        ],
         "data_path": "agbenchmark/challenges/interface/read_file/data.json"
+    },
+    "TestRevenueRetrieval_1.0": {
+        "difficulty": "novice",
+        "data_path": "agbenchmark/challenges/retrieval/r2_search_suite_1"
     },
     "TestSearch": {
         "difficulty": "interface",
-        "dependencies": [
-            "TestWriteFile"
-        ],
         "data_path": "agbenchmark/challenges/interface/search/data.json"
     },
     "TestWriteFile": {
         "difficulty": "interface",
-        "dependencies": [],
         "data_path": "agbenchmark/challenges/interface/write_file/data.json"
     }
 }
