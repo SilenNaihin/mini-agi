@@ -13,7 +13,7 @@
     },
     "TestRevenueRetrieval_1.0": {
         "difficulty": "novice",
-        "data_path": "agbenchmark/challenges/retrieval/r2_search_suite_1"
+        "data_path": "agbenchmark/challenges/retrieval/r2_search_suite_1/1_tesla_revenue/data.json"
     },
     "TestSearch": {
         "difficulty": "interface",
