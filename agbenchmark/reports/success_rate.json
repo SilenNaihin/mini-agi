@@ -1,0 +1,158 @@
+{
+    "TestAdaptLink": [
+        true
+    ],
+    "TestAdaptSimpleTypoWithGuidance": [
+        false
+    ],
+    "TestAdaptTeslaRevenue": [
+        false
+    ],
+    "TestBasicContentGen": [
+        true
+    ],
+    "TestBasicMemory": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false
+    ],
+    "TestBasicRetrieval": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "TestCodeBasic": [
+        false,
+        true,
+        false,
+        false
+    ],
+    "TestCreateSimpleWebServer": [
+        true
+    ],
+    "TestDebugMultipleTypo": [
+        true
+    ],
+    "TestDebugSimpleTypoWithGuidance": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "TestDebugSimpleTypoWithoutGuidance": [
+        true
+    ],
+    "TestFunctionCodeGeneration": [
+        false
+    ],
+    "TestGoalDivergence": [
+        false
+    ],
+    "TestGoalLoss_Hard": [
+        false
+    ],
+    "TestGoalLoss_Medium": [
+        false
+    ],
+    "TestGoalLoss_Simple": [
+        false
+    ],
+    "TestGoalLoss_advanced": [
+        false
+    ],
+    "TestInstructionFollowing": [
+        false
+    ],
+    "TestPlanCreation": [
+        true
+    ],
+    "TestReadFile": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "TestRememberMultipleIds": [
+        false,
+        false,
+        true,
+        false
+    ],
+    "TestRememberMultipleWithNoise": [
+        false,
+        true,
+        false
+    ],
+    "TestRetrieval3": [
+        false
+    ],
+    "TestReturnCode_Modify": [
+        false,
+        false
+    ],
+    "TestReturnCode_Simple": [
+        false,
+        false
+    ],
+    "TestReturnCode_Tests": [
+        false,
+        false
+    ],
+    "TestReturnCode_Write": [
+        false,
+        false
+    ],
+    "TestRevenueRetrieval_1.0": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "TestRevenueRetrieval_1.1": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "TestRevenueRetrieval_1.2": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "TestSearch": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+    ],
+    "TestThreeSum": [
+        false
+    ],
+    "TestWriteFile": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+    ]
+}
